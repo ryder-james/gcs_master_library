@@ -7,9 +7,9 @@
 			"type": "advantage_container",
 			"id": "3fa2b4dc-e4ea-4c29-bbb5-83888fbbdeaa",
 			"name": "Artificer",
-			"reference": "DF1:4",
+			"reference": "DF4:5",
 			"calc": {
-				"points": 184
+				"points": 287
 			},
 			"open": true,
 			"children": [
@@ -22,89 +22,6 @@
 					},
 					"open": true,
 					"children": [
-						{
-							"type": "advantage",
-							"id": "324b39c9-3666-4569-b25e-fdf4c5571aee",
-							"name": "Increased Dexterity",
-							"physical": true,
-							"levels": "3",
-							"points_per_level": 20,
-							"modifiers": [
-								{
-									"type": "modifier",
-									"id": "0e11ba2f-035c-4b7c-83aa-727b975d2fcf",
-									"disabled": true,
-									"name": "No Fine Manipulators",
-									"cost_type": "percentage",
-									"cost": -40,
-									"affects": "total"
-								}
-							],
-							"reference": "B15",
-							"calc": {
-								"points": 60
-							},
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": 1,
-									"per_level": true,
-									"attribute": "dx"
-								}
-							],
-							"categories": [
-								"Advantage",
-								"Attribute"
-							]
-						},
-						{
-							"type": "advantage",
-							"id": "20f5b4cb-2dde-451b-9250-80b32855ba5a",
-							"name": "Increased Health",
-							"physical": true,
-							"levels": "1",
-							"points_per_level": 10,
-							"reference": "B14",
-							"calc": {
-								"points": 10
-							},
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": 1,
-									"per_level": true,
-									"attribute": "ht"
-								}
-							],
-							"categories": [
-								"Advantage",
-								"Attribute"
-							]
-						},
-						{
-							"type": "advantage",
-							"id": "5ff4e5b5-23e8-439c-a13e-fbaab66e16c0",
-							"name": "Increased Intelligence",
-							"mental": true,
-							"levels": "3",
-							"points_per_level": 20,
-							"reference": "B15",
-							"calc": {
-								"points": 60
-							},
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": 1,
-									"per_level": true,
-									"attribute": "iq"
-								}
-							],
-							"categories": [
-								"Advantage",
-								"Attribute"
-							]
-						},
 						{
 							"type": "advantage",
 							"id": "22a9133e-9c97-4329-b53c-a8055ae2c490",
@@ -161,6 +78,89 @@
 								"Advantage",
 								"Attribute"
 							]
+						},
+						{
+							"type": "advantage",
+							"id": "324b39c9-3666-4569-b25e-fdf4c5571aee",
+							"name": "Increased Dexterity",
+							"physical": true,
+							"levels": "3",
+							"points_per_level": 20,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"id": "0e11ba2f-035c-4b7c-83aa-727b975d2fcf",
+									"disabled": true,
+									"name": "No Fine Manipulators",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								}
+							],
+							"reference": "B15",
+							"calc": {
+								"points": 60
+							},
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "dx"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "5ff4e5b5-23e8-439c-a13e-fbaab66e16c0",
+							"name": "Increased Intelligence",
+							"mental": true,
+							"levels": "3",
+							"points_per_level": 20,
+							"reference": "B15",
+							"calc": {
+								"points": 60
+							},
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "iq"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"id": "20f5b4cb-2dde-451b-9250-80b32855ba5a",
+							"name": "Increased Health",
+							"physical": true,
+							"levels": "1",
+							"points_per_level": 10,
+							"reference": "B14",
+							"calc": {
+								"points": 10
+							},
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "ht"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
 						}
 					]
 				},
@@ -169,23 +169,82 @@
 					"id": "159c6396-b341-48cb-a1b2-0649fc03fd71",
 					"name": "Class Advantages",
 					"calc": {
-						"points": 199
+						"points": 309
 					},
 					"open": true,
 					"children": [
 						{
 							"type": "advantage_container",
 							"id": "9cd281e8-d49e-44e5-8666-90f805f1045e",
-							"name": "40 Chosen From:",
+							"name": "40 Points chosen from:",
 							"calc": {
-								"points": 112
+								"points": 222
 							},
-							"open": false,
+							"open": true,
 							"children": [
 								{
 									"type": "advantage",
+									"id": "5986b2b2-da4d-4e71-a489-ee58ab9fb294",
+									"name": "Increased Dexterity",
+									"physical": true,
+									"levels": "2",
+									"points_per_level": 20,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "18118211-d2b1-4ae1-9982-a25750eb9b44",
+											"disabled": true,
+											"name": "No Fine Manipulators",
+											"cost_type": "percentage",
+											"cost": -40,
+											"affects": "total"
+										}
+									],
+									"reference": "B15",
+									"calc": {
+										"points": 40
+									},
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"amount": 1,
+											"per_level": true,
+											"attribute": "dx"
+										}
+									],
+									"categories": [
+										"Advantage",
+										"Attribute"
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "c79b9b89-ee59-4e07-b5c6-01e4502b229e",
+									"name": "Increased Intelligence",
+									"mental": true,
+									"levels": "2",
+									"points_per_level": 20,
+									"reference": "B15",
+									"calc": {
+										"points": 40
+									},
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"amount": 1,
+											"per_level": true,
+											"attribute": "iq"
+										}
+									],
+									"categories": [
+										"Advantage",
+										"Attribute"
+									]
+								},
+								{
+									"type": "advantage",
 									"id": "ebc4f554-7c64-4ac3-a9f2-2681ba666774",
-									"name": "Equipment Bond (any other)",
+									"name": "Equipment Bond (other)",
 									"physical": true,
 									"base_points": 1,
 									"calc": {
@@ -195,7 +254,7 @@
 								{
 									"type": "advantage",
 									"id": "56b0e5f2-9971-4967-8bcb-0691847f65f4",
-									"name": "Gizmo",
+									"name": "Gizmos 4+",
 									"mental": true,
 									"levels": "0",
 									"points_per_level": 5,
@@ -212,11 +271,11 @@
 									"id": "b8d3390b-fe6e-4249-b2ad-ab5c50ea5aca",
 									"name": "High Manual Dexterity",
 									"physical": true,
-									"levels": "0",
+									"levels": "4",
 									"points_per_level": 5,
 									"reference": "B59",
 									"calc": {
-										"points": 0
+										"points": 20
 									},
 									"features": [
 										{
@@ -330,68 +389,8 @@
 											}
 										}
 									],
-									"notes": "maxmimum 4",
 									"categories": [
 										"Advantage"
-									]
-								},
-								{
-									"type": "advantage",
-									"id": "5986b2b2-da4d-4e71-a489-ee58ab9fb294",
-									"name": "Increased Dexterity",
-									"physical": true,
-									"levels": "0",
-									"points_per_level": 20,
-									"modifiers": [
-										{
-											"type": "modifier",
-											"id": "18118211-d2b1-4ae1-9982-a25750eb9b44",
-											"disabled": true,
-											"name": "No Fine Manipulators",
-											"cost_type": "percentage",
-											"cost": -40,
-											"affects": "total"
-										}
-									],
-									"reference": "B15",
-									"calc": {
-										"points": 0
-									},
-									"features": [
-										{
-											"type": "attribute_bonus",
-											"amount": 1,
-											"per_level": true,
-											"attribute": "dx"
-										}
-									],
-									"categories": [
-										"Advantage",
-										"Attribute"
-									]
-								},
-								{
-									"type": "advantage",
-									"id": "c79b9b89-ee59-4e07-b5c6-01e4502b229e",
-									"name": "Increased Intelligence",
-									"mental": true,
-									"levels": "0",
-									"points_per_level": 20,
-									"reference": "B15",
-									"calc": {
-										"points": 0
-									},
-									"features": [
-										{
-											"type": "attribute_bonus",
-											"amount": 1,
-											"per_level": true,
-											"attribute": "iq"
-										}
-									],
-									"categories": [
-										"Advantage",
-										"Attribute"
 									]
 								},
 								{
@@ -400,7 +399,7 @@
 									"name": "Lifting ST",
 									"physical": true,
 									"exotic": true,
-									"levels": "0",
+									"levels": "3",
 									"points_per_level": 3,
 									"modifiers": [
 										{
@@ -437,7 +436,7 @@
 									],
 									"reference": "B65",
 									"calc": {
-										"points": 0
+										"points": 9
 									},
 									"features": [
 										{
@@ -448,7 +447,6 @@
 											"limitation": "lifting_only"
 										}
 									],
-									"notes": "maximum 3",
 									"categories": [
 										"Advantage"
 									]
@@ -640,11 +638,11 @@
 									"id": "da779981-6d4e-4379-92e4-062e42ad940d",
 									"name": "Signature Gear",
 									"social": true,
-									"levels": "0",
+									"levels": "1",
 									"points_per_level": 1,
 									"reference": "B85",
 									"calc": {
-										"points": 0
+										"points": 1
 									},
 									"categories": [
 										"Advantage"
@@ -768,108 +766,6 @@
 								},
 								{
 									"type": "advantage",
-									"id": "69e18e0a-c927-4e27-8fe1-e9f558eefc2e",
-									"name": "Wealth",
-									"social": true,
-									"modifiers": [
-										{
-											"type": "modifier",
-											"id": "16ab5ba5-1373-4888-9377-9905c12fc712",
-											"disabled": true,
-											"name": "Dead Broke",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": -25,
-											"affects": "total",
-											"notes": "Starting wealth is $0"
-										},
-										{
-											"type": "modifier",
-											"id": "f8ee95a2-c79c-4a30-9947-bd5ca476523b",
-											"disabled": true,
-											"name": "Poor",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": -15,
-											"affects": "total",
-											"notes": "Starting wealth is 1/5 average"
-										},
-										{
-											"type": "modifier",
-											"id": "48571805-aef8-4a96-974b-081f7ea07ba1",
-											"disabled": true,
-											"name": "Struggling",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": -10,
-											"affects": "total",
-											"notes": "Starting wealth is 1/2 average"
-										},
-										{
-											"type": "modifier",
-											"id": "7e42cad4-e483-40bb-9a0a-025fe34af989",
-											"disabled": true,
-											"name": "Average",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": 0,
-											"affects": "total"
-										},
-										{
-											"type": "modifier",
-											"id": "637d4035-b32d-47f8-8b65-f7078cd6aa2a",
-											"disabled": true,
-											"name": "Comfortable",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": 10,
-											"affects": "total",
-											"notes": "Starting wealth is 2x average"
-										},
-										{
-											"type": "modifier",
-											"id": "77aede5b-f240-438c-a894-cf28fe0b4a17",
-											"disabled": true,
-											"name": "Wealthy",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": 20,
-											"affects": "total",
-											"notes": "Starting wealth is 5x average"
-										},
-										{
-											"type": "modifier",
-											"id": "4ecb3c18-27bc-4386-bae7-a5aeb47e4033",
-											"name": "Very Wealthy",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": 30,
-											"affects": "total",
-											"notes": "Starting wealth is 20x average"
-										},
-										{
-											"type": "modifier",
-											"id": "48809b0c-7eba-4964-915f-59974e194fbb",
-											"disabled": true,
-											"name": "Filthy Rich",
-											"reference": "B25",
-											"cost_type": "points",
-											"cost": 50,
-											"affects": "total",
-											"notes": "Starting wealth is 100x average"
-										}
-									],
-									"reference": "B25",
-									"calc": {
-										"points": 30
-									},
-									"categories": [
-										"Advantage",
-										"Disadvantage"
-									]
-								},
-								{
-									"type": "advantage",
 									"id": "01c83412-e8d5-46c3-9caa-bb656f427372",
 									"name": "Wealth",
 									"social": true,
@@ -964,6 +860,108 @@
 									"reference": "B25",
 									"calc": {
 										"points": 20
+									},
+									"categories": [
+										"Advantage",
+										"Disadvantage"
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "69e18e0a-c927-4e27-8fe1-e9f558eefc2e",
+									"name": "Wealth",
+									"social": true,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "16ab5ba5-1373-4888-9377-9905c12fc712",
+											"disabled": true,
+											"name": "Dead Broke",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": -25,
+											"affects": "total",
+											"notes": "Starting wealth is $0"
+										},
+										{
+											"type": "modifier",
+											"id": "f8ee95a2-c79c-4a30-9947-bd5ca476523b",
+											"disabled": true,
+											"name": "Poor",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": -15,
+											"affects": "total",
+											"notes": "Starting wealth is 1/5 average"
+										},
+										{
+											"type": "modifier",
+											"id": "48571805-aef8-4a96-974b-081f7ea07ba1",
+											"disabled": true,
+											"name": "Struggling",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": -10,
+											"affects": "total",
+											"notes": "Starting wealth is 1/2 average"
+										},
+										{
+											"type": "modifier",
+											"id": "7e42cad4-e483-40bb-9a0a-025fe34af989",
+											"disabled": true,
+											"name": "Average",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": 0,
+											"affects": "total"
+										},
+										{
+											"type": "modifier",
+											"id": "637d4035-b32d-47f8-8b65-f7078cd6aa2a",
+											"disabled": true,
+											"name": "Comfortable",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": 10,
+											"affects": "total",
+											"notes": "Starting wealth is 2x average"
+										},
+										{
+											"type": "modifier",
+											"id": "77aede5b-f240-438c-a894-cf28fe0b4a17",
+											"disabled": true,
+											"name": "Wealthy",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": 20,
+											"affects": "total",
+											"notes": "Starting wealth is 5x average"
+										},
+										{
+											"type": "modifier",
+											"id": "4ecb3c18-27bc-4386-bae7-a5aeb47e4033",
+											"name": "Very Wealthy",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": 30,
+											"affects": "total",
+											"notes": "Starting wealth is 20x average"
+										},
+										{
+											"type": "modifier",
+											"id": "48809b0c-7eba-4964-915f-59974e194fbb",
+											"disabled": true,
+											"name": "Filthy Rich",
+											"reference": "B25",
+											"cost_type": "points",
+											"cost": 50,
+											"affects": "total",
+											"notes": "Starting wealth is 100x average"
+										}
+									],
+									"reference": "B25",
+									"calc": {
+										"points": 30
 									},
 									"categories": [
 										"Advantage",
@@ -1077,6 +1075,21 @@
 						},
 						{
 							"type": "advantage",
+							"id": "92af50c7-e28d-4fd1-a8e7-88569a31a2cf",
+							"name": "Gizmo",
+							"mental": true,
+							"levels": "3",
+							"points_per_level": 5,
+							"reference": "B57",
+							"calc": {
+								"points": 15
+							},
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
 							"id": "9efe565c-be6e-4eb7-95be-b1c61499a24a",
 							"name": "Gadgeteer",
 							"mental": true,
@@ -1099,21 +1112,6 @@
 							"categories": [
 								"Advantage"
 							]
-						},
-						{
-							"type": "advantage",
-							"id": "92af50c7-e28d-4fd1-a8e7-88569a31a2cf",
-							"name": "Gizmo",
-							"mental": true,
-							"levels": "3",
-							"points_per_level": 5,
-							"reference": "B57",
-							"calc": {
-								"points": 15
-							},
-							"categories": [
-								"Advantage"
-							]
 						}
 					]
 				},
@@ -1122,16 +1120,16 @@
 					"id": "067bdd8c-1344-40dd-91ac-47ae442bac6f",
 					"name": "Class Disadvantages",
 					"calc": {
-						"points": -155
+						"points": -162
 					},
 					"open": true,
 					"children": [
 						{
 							"type": "advantage_container",
 							"id": "213c00b1-0ce4-44a5-adde-eb343ccf7bfa",
-							"name": "-20 Chosen From:",
+							"name": "-20 Points chosen from:",
 							"calc": {
-								"points": -75
+								"points": -82
 							},
 							"open": true,
 							"children": [
@@ -1239,15 +1237,6 @@
 								},
 								{
 									"type": "advantage",
-									"id": "553eb9c3-7b9c-413f-bb6f-fe8990fa790f",
-									"name": "or worsen Compulsive Inventing from (12) to (9)",
-									"physical": true,
-									"calc": {
-										"points": 0
-									}
-								},
-								{
-									"type": "advantage",
 									"id": "0973c1bf-794e-4995-b787-665d3a2c2247",
 									"name": "Overconfidence",
 									"mental": true,
@@ -1290,13 +1279,33 @@
 									"categories": [
 										"Disadvantage"
 									]
+								},
+								{
+									"type": "advantage",
+									"id": "553eb9c3-7b9c-413f-bb6f-fe8990fa790f",
+									"name": "Worsen Compulsive Inventing from (12) to (9)",
+									"physical": true,
+									"base_points": -2,
+									"calc": {
+										"points": -2
+									}
+								},
+								{
+									"type": "advantage",
+									"id": "468c7fa2-37ba-4c21-974e-e27fec8d2844",
+									"name": "Worsen Compulsive Inventing from (12) to (6)",
+									"physical": true,
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
 								}
 							]
 						},
 						{
 							"type": "advantage_container",
 							"id": "64b01f61-fc93-4a15-a6ba-bc6dd1de5252",
-							"name": "A further -25 Chosen From:",
+							"name": "-25 Points chosen from:",
 							"calc": {
 								"points": -75
 							},
@@ -1551,366 +1560,9 @@
 		{
 			"type": "skill_container",
 			"id": "12ad67e0-9d38-4182-a454-63a6176047d4",
-			"name": "Sorcerer",
+			"name": "Artificer",
 			"open": true,
 			"children": [
-				{
-					"type": "skill_container",
-					"id": "5d3fe0a1-6d6a-4875-8823-43a231876642",
-					"name": "Background Skills",
-					"open": true,
-					"children": [
-						{
-							"type": "skill",
-							"id": "f7b45f0d-8ebb-4c9e-a399-33bb2f80981a",
-							"name": "Architecture",
-							"reference": "B176",
-							"tech_level": "",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Engineer",
-									"specialization": "Civil",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Design/Invention"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "733253fb-b924-4b45-8ca3-7b9c4308f085",
-							"name": "Cartography",
-							"reference": "B183",
-							"tech_level": "",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Geography",
-									"modifier": -2
-								},
-								{
-									"type": "skill",
-									"name": "Mathematics",
-									"specialization": "Surveying",
-									"modifier": -2
-								},
-								{
-									"type": "skill",
-									"name": "Navigation",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Outdoor/Exploration",
-								"Social Sciences/Humanities"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "78374e7a-d33f-4f39-b02a-4fd20f16eea5",
-							"name": "Climbing",
-							"reference": "B183",
-							"encumbrance_penalty_multiplier": 1,
-							"difficulty": "dx/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "dx",
-									"modifier": -5
-								}
-							],
-							"categories": [
-								"Athletic",
-								"Criminal/Street",
-								"Outdoor/Exploration"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "ffb6d605-2c80-48bf-87c5-5ce5bd3da7b8",
-							"name": "Counterfeiting",
-							"reference": "B185",
-							"tech_level": "",
-							"difficulty": "iq/h",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Forgery",
-									"modifier": -2
-								}
-							],
-							"categories": [
-								"Criminal/Street"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "328c4f2d-81c6-4fcf-87c3-2c8dcefa4e34",
-							"name": "First Aid",
-							"reference": "B195",
-							"tech_level": "",
-							"difficulty": "iq/e",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Esoteric Medicine"
-								},
-								{
-									"type": "skill",
-									"name": "Physician"
-								},
-								{
-									"type": "skill",
-									"name": "Veterinary",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Everyman",
-								"Medical"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "9b9909fc-0b62-4f2b-bc00-efe76bc90668",
-							"name": "Hazardous Materials",
-							"reference": "B199",
-							"specialization": "Magical",
-							"tech_level": "",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								}
-							],
-							"categories": [
-								"Technical"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "cf148480-810f-4807-a478-313f34bf3c46",
-							"name": "Holdout",
-							"reference": "B200",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Sleight of Hand",
-									"modifier": -3
-								}
-							],
-							"categories": [
-								"Criminal/Street",
-								"Spy"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "e58e6c68-7d5c-4d19-92e5-3546eb66dda4",
-							"name": "Jeweler",
-							"reference": "B203",
-							"tech_level": "",
-							"difficulty": "iq/h",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Smith",
-									"specialization": "Copper",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Smith",
-									"specialization": "Lead & Tin",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Craft"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "434c4723-5906-4c76-a491-52a603c026ae",
-							"name": "Knot-Tying",
-							"reference": "B203",
-							"difficulty": "dx/e",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "dx",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Climbing",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Seamanship",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Everyman"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "660987f4-2a92-4b69-8ebe-32e243907f76",
-							"name": "Leatherworking",
-							"reference": "B205",
-							"difficulty": "dx/e",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "dx",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Craft"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "88041b67-e69d-48c6-99f5-b3ddc4e94284",
-							"name": "Merchant",
-							"reference": "B209",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Finance",
-									"modifier": -6
-								},
-								{
-									"type": "skill",
-									"name": "Market Analysis",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Business",
-								"Social"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "a4de7669-056d-4345-88cd-3b9b87d7dbef",
-							"name": "Search",
-							"reference": "B219",
-							"difficulty": "per/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "per",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Criminology",
-									"modifier": -5
-								}
-							],
-							"categories": [
-								"Police",
-								"Spy"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "27b01514-af08-4fe2-955f-094e68eb9f8b",
-							"name": "Smith",
-							"reference": "B221",
-							"specialization": "any",
-							"tech_level": "",
-							"difficulty": "iq/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "skill",
-									"name": "Smith",
-									"modifier": -4
-								}
-							],
-							"categories": [
-								"Craft"
-							]
-						},
-						{
-							"type": "skill",
-							"id": "1adfa571-26dd-4be8-99a9-e5ea73431785",
-							"name": "Stealth",
-							"reference": "B222",
-							"encumbrance_penalty_multiplier": 1,
-							"difficulty": "dx/a",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -5
-								},
-								{
-									"type": "dx",
-									"modifier": -5
-								}
-							],
-							"categories": [
-								"Criminal/Street",
-								"Police",
-								"Spy"
-							]
-						}
-					]
-				},
 				{
 					"type": "skill_container",
 					"id": "ff7998ec-3fb6-4843-a58b-5762a293ad89",
@@ -1982,6 +1634,19 @@
 					"name": "Secondary Skills",
 					"open": true,
 					"children": [
+						{
+							"type": "skill",
+							"id": "f1cbe109-386b-4f07-ba42-27eb44439a64",
+							"name": "Forced Entry",
+							"reference": "B196",
+							"difficulty": "dx/e",
+							"points": 1,
+							"categories": [
+								"Criminal/Street",
+								"Police",
+								"Spy"
+							]
+						},
 						{
 							"type": "skill",
 							"id": "977be9d2-46b5-4097-ba94-17a03c98126a",
@@ -2062,15 +1727,26 @@
 						},
 						{
 							"type": "skill",
-							"id": "f1cbe109-386b-4f07-ba42-27eb44439a64",
-							"name": "Forced Entry",
-							"reference": "B196",
-							"difficulty": "dx/e",
+							"id": "54110781-8eb7-4581-ac82-3b0e54fc5903",
+							"name": "Traps",
+							"reference": "B226",
+							"tech_level": "",
+							"difficulty": "iq/a",
 							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Lockpicking",
+									"modifier": -3
+								}
+							],
 							"categories": [
 								"Criminal/Street",
-								"Police",
-								"Spy"
+								"Military"
 							]
 						},
 						{
@@ -2096,8 +1772,58 @@
 						},
 						{
 							"type": "skill_container",
+							"id": "8ff4a663-8b76-411d-8d2c-f27f2d251dc2",
+							"name": "Choose one",
+							"open": true,
+							"children": [
+								{
+									"type": "skill",
+									"id": "95a59292-77fc-4e5c-88c4-f80394702bc9",
+									"name": "Crossbow",
+									"reference": "B186",
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"categories": [
+										"Combat/Weapon",
+										"Ranged Combat"
+									]
+								},
+								{
+									"type": "skill",
+									"id": "6dc11bf0-267f-4fe0-be4d-04f5b168d889",
+									"name": "Throwing",
+									"reference": "B226",
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Dropping",
+											"modifier": -4
+										}
+									],
+									"categories": [
+										"Athletic",
+										"Combat/Weapon",
+										"Ranged Combat"
+									]
+								}
+							]
+						},
+						{
+							"type": "skill_container",
 							"id": "319e3a51-c0ad-488b-91e8-405627dd87c4",
-							"name": "One melee weapons package:",
+							"name": "Choose one",
 							"open": true,
 							"children": [
 								{
@@ -2348,9 +2074,53 @@
 						{
 							"type": "skill_container",
 							"id": "99716a99-3a93-4d40-9329-704455f1e911",
-							"name": "One of, or increase melee weapon by [4]:",
+							"name": "Choose one",
 							"open": true,
 							"children": [
+								{
+									"type": "skill",
+									"id": "b5b990c7-95bd-4ad1-998c-1a39ba62e540",
+									"name": "Shield",
+									"reference": "B220",
+									"specialization": "Shield",
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"categories": [
+										"Combat/Weapon",
+										"Melee Combat"
+									]
+								},
+								{
+									"type": "skill",
+									"id": "2e552556-2fee-435a-9ba5-29b45c807bb1",
+									"name": "Shield",
+									"reference": "B220",
+									"specialization": "Buckler",
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shield",
+											"specialization": "Force",
+											"modifier": -2
+										}
+									],
+									"categories": [
+										"Combat/Weapon",
+										"Melee Combat"
+									]
+								},
 								{
 									"type": "skill",
 									"id": "226a7406-ea7c-42c1-91ae-c988c18c0e96",
@@ -2424,105 +2194,146 @@
 								},
 								{
 									"type": "skill",
-									"id": "2e552556-2fee-435a-9ba5-29b45c807bb1",
-									"name": "Shield",
-									"reference": "B220",
-									"specialization": "Buckler",
-									"difficulty": "dx/e",
-									"points": 4,
-									"defaults": [
-										{
-											"type": "dx",
-											"modifier": -4
-										},
-										{
-											"type": "skill",
-											"name": "Shield",
-											"specialization": "Force",
-											"modifier": -2
-										}
-									],
-									"categories": [
-										"Combat/Weapon",
-										"Melee Combat"
-									]
-								},
-								{
-									"type": "skill",
-									"id": "b5b990c7-95bd-4ad1-998c-1a39ba62e540",
-									"name": "Shield",
-									"reference": "B220",
-									"specialization": "Shield",
-									"difficulty": "dx/e",
-									"points": 4,
-									"defaults": [
-										{
-											"type": "dx",
-											"modifier": -4
-										}
-									],
-									"categories": [
-										"Combat/Weapon",
-										"Melee Combat"
-									]
+									"id": "4bacb320-38a3-4f04-a109-373bdceec0d0",
+									"name": "Increase main Melee Weapon skill to DX+2 for 4 points",
+									"difficulty": "dx/a",
+									"points": 0
 								}
 							]
-						},
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "5d3fe0a1-6d6a-4875-8823-43a231876642",
+					"name": "Background Skills",
+					"open": true,
+					"children": [
 						{
-							"type": "skill_container",
-							"id": "8ff4a663-8b76-411d-8d2c-f27f2d251dc2",
-							"name": "One ranged weapons package:",
-							"open": true,
-							"children": [
+							"type": "skill",
+							"id": "434c4723-5906-4c76-a491-52a603c026ae",
+							"name": "Knot-Tying",
+							"reference": "B203",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
 								{
-									"type": "skill",
-									"id": "95a59292-77fc-4e5c-88c4-f80394702bc9",
-									"name": "Crossbow",
-									"reference": "B186",
-									"difficulty": "dx/e",
-									"points": 4,
-									"defaults": [
-										{
-											"type": "dx",
-											"modifier": -4
-										}
-									],
-									"categories": [
-										"Combat/Weapon",
-										"Ranged Combat"
-									]
+									"type": "dx",
+									"modifier": -4
 								},
 								{
 									"type": "skill",
-									"id": "6dc11bf0-267f-4fe0-be4d-04f5b168d889",
-									"name": "Throwing",
-									"reference": "B226",
-									"difficulty": "dx/a",
-									"points": 4,
-									"defaults": [
-										{
-											"type": "dx",
-											"modifier": -3
-										},
-										{
-											"type": "skill",
-											"name": "Dropping",
-											"modifier": -4
-										}
-									],
-									"categories": [
-										"Athletic",
-										"Combat/Weapon",
-										"Ranged Combat"
-									]
+									"name": "Climbing",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Seamanship",
+									"modifier": -4
 								}
+							],
+							"categories": [
+								"Everyman"
 							]
 						},
 						{
 							"type": "skill",
-							"id": "54110781-8eb7-4581-ac82-3b0e54fc5903",
-							"name": "Traps",
-							"reference": "B226",
+							"id": "660987f4-2a92-4b69-8ebe-32e243907f76",
+							"name": "Leatherworking",
+							"reference": "B205",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Craft"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "78374e7a-d33f-4f39-b02a-4fd20f16eea5",
+							"name": "Climbing",
+							"reference": "B183",
+							"encumbrance_penalty_multiplier": 1,
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Athletic",
+								"Criminal/Street",
+								"Outdoor/Exploration"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "1adfa571-26dd-4be8-99a9-e5ea73431785",
+							"name": "Stealth",
+							"reference": "B222",
+							"encumbrance_penalty_multiplier": 1,
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Police",
+								"Spy"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "328c4f2d-81c6-4fcf-87c3-2c8dcefa4e34",
+							"name": "First Aid",
+							"reference": "B195",
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Everyman",
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "f7b45f0d-8ebb-4c9e-a399-33bb2f80981a",
+							"name": "Architecture",
+							"reference": "B176",
 							"tech_level": "",
 							"difficulty": "iq/a",
 							"points": 1,
@@ -2533,13 +2344,218 @@
 								},
 								{
 									"type": "skill",
-									"name": "Lockpicking",
+									"name": "Engineer",
+									"specialization": "Civil",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Design/Invention"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "733253fb-b924-4b45-8ca3-7b9c4308f085",
+							"name": "Cartography",
+							"reference": "B183",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Outdoor/Exploration",
+								"Social Sciences/Humanities"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "9b9909fc-0b62-4f2b-bc00-efe76bc90668",
+							"name": "Hazardous Materials",
+							"reference": "B199",
+							"specialization": "Magical",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Technical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "cf148480-810f-4807-a478-313f34bf3c46",
+							"name": "Holdout",
+							"reference": "B200",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Sleight of Hand",
 									"modifier": -3
 								}
 							],
 							"categories": [
 								"Criminal/Street",
-								"Military"
+								"Spy"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "88041b67-e69d-48c6-99f5-b3ddc4e94284",
+							"name": "Merchant",
+							"reference": "B209",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Business",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "27b01514-af08-4fe2-955f-094e68eb9f8b",
+							"name": "Smith",
+							"reference": "B221",
+							"specialization": "any",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Craft"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "ffb6d605-2c80-48bf-87c5-5ce5bd3da7b8",
+							"name": "Counterfeiting",
+							"reference": "B185",
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Forgery",
+									"modifier": -2
+								}
+							],
+							"categories": [
+								"Criminal/Street"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "e58e6c68-7d5c-4d19-92e5-3546eb66dda4",
+							"name": "Jeweler",
+							"reference": "B203",
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"specialization": "Copper",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"specialization": "Lead & Tin",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Craft"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "a4de7669-056d-4345-88cd-3b9b87d7dbef",
+							"name": "Search",
+							"reference": "B219",
+							"difficulty": "per/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Criminology",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Police",
+								"Spy"
 							]
 						}
 					]
