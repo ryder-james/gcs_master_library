@@ -9,7 +9,7 @@
 			"name": "Scholar",
 			"reference": "DF4:8",
 			"calc": {
-				"points": 400
+				"points": 390
 			},
 			"open": true,
 			"children": [
@@ -18,7 +18,7 @@
 					"id": "523fa33d-5bea-477b-ab64-2369c8a43cc7",
 					"name": "Class Disadvantages",
 					"calc": {
-						"points": -157
+						"points": -167
 					},
 					"open": true,
 					"children": [
@@ -27,7 +27,7 @@
 							"id": "f84dd997-de03-4d89-b4e1-277421e61d25",
 							"name": "-20 Points chosen from:",
 							"calc": {
-								"points": -62
+								"points": -72
 							},
 							"open": true,
 							"children": [
@@ -55,25 +55,52 @@
 								},
 								{
 									"type": "advantage",
-									"id": "9c4a86d1-6e1b-4faa-bd1b-1a91a9be422a",
-									"name": "Bad Sight (Near or Farsighted)",
+									"id": "69a89b6a-c582-4082-be35-9cbd22e84227",
+									"name": "Bad Sight (Farsighted)",
 									"physical": true,
 									"base_points": -25,
 									"modifiers": [
 										{
 											"type": "modifier",
-											"id": "240c4e50-0d56-4711-9d5a-3989d054b4d5",
+											"id": "966c36f0-62c2-49c0-85c6-2f5079d5d16b",
 											"name": "Mitigator",
 											"cost_type": "percentage",
 											"cost": -60,
 											"affects": "total",
-											"notes": "Corrective Spectacles"
+											"notes": "Glasses"
 										}
 									],
 									"reference": "B123",
 									"calc": {
 										"points": -10
 									},
+									"notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
+									"categories": [
+										"Disadvantage"
+									]
+								},
+								{
+									"type": "advantage",
+									"id": "c0ea7fd7-9bfa-4cba-b594-dec3acc479b3",
+									"name": "Bad Sight (Nearsighted)",
+									"physical": true,
+									"base_points": -25,
+									"modifiers": [
+										{
+											"type": "modifier",
+											"id": "bf0991d9-9f84-4b7a-8f8b-ed3457996e06",
+											"name": "Mitigator",
+											"cost_type": "percentage",
+											"cost": -60,
+											"affects": "total",
+											"notes": "Glasses"
+										}
+									],
+									"reference": "B123",
+									"calc": {
+										"points": -10
+									},
+									"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
 									"categories": [
 										"Disadvantage"
 									]
