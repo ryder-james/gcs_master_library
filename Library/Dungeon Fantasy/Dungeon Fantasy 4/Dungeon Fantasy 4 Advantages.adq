@@ -119,6 +119,23 @@
 				"Advantage",
 				"Talent"
 			]
+		},
+		{
+			"type": "advantage",
+			"id": "35ddf4da-0076-42de-abdc-0b04257aaf92",
+			"name": "Modular Abilities (Book-Learned Wisdom)",
+			"mental": true,
+			"levels": "1",
+			"base_points": 5,
+			"points_per_level": 2,
+			"reference": "DF4:8",
+			"calc": {
+				"points": 7
+			},
+			"notes": "Holds one piece of wisdom (IQ-, Will-, or Per-based skills, Cultural Familiarities, etc.). Must study 2 hours per character point.",
+			"categories": [
+				"Advantage"
+			]
 		}
 	]
 }
