@@ -9,7 +9,7 @@
 			"name": "Scholar",
 			"reference": "DF4:8",
 			"calc": {
-				"points": 390
+				"points": 405
 			},
 			"open": true,
 			"children": [
@@ -18,7 +18,7 @@
 					"id": "523fa33d-5bea-477b-ab64-2369c8a43cc7",
 					"name": "Class Disadvantages",
 					"calc": {
-						"points": -167
+						"points": -152
 					},
 					"open": true,
 					"children": [
@@ -315,7 +315,7 @@
 							"id": "d0456c8a-ed88-4f1f-8f13-1bd00eb82c53",
 							"name": "-25 Points chosen from:",
 							"calc": {
-								"points": -90
+								"points": -75
 							},
 							"open": true,
 							"children": [
@@ -520,7 +520,7 @@
 									"modifiers": [
 										{
 											"type": "modifier",
-											"id": "dc7651c8-3206-4e21-8214-1d6b466d692e",
+											"id": "54895227-14fc-4b78-ae61-b8210e482e51",
 											"disabled": true,
 											"name": "-1 Reaction",
 											"reference": "B22",
@@ -530,7 +530,7 @@
 										},
 										{
 											"type": "modifier",
-											"id": "68619f19-fd55-4a2c-a111-7c8d616b8fb2",
+											"id": "5471dddd-4dfe-4063-9921-6db215335bcc",
 											"disabled": true,
 											"name": "-2 Reaction",
 											"reference": "B22",
@@ -540,7 +540,8 @@
 										},
 										{
 											"type": "modifier",
-											"id": "d6d4c29f-e2fc-48bb-88d8-4f51e27514ff",
+											"id": "93619fef-25d6-48f8-a3cf-c5c153a07b62",
+											"disabled": true,
 											"name": "-3 Reaction",
 											"reference": "B22",
 											"cost_type": "points",
@@ -550,8 +551,9 @@
 									],
 									"reference": "B22",
 									"calc": {
-										"points": -15
+										"points": 0
 									},
+									"notes": "@Habit@",
 									"categories": [
 										"Disadvantage"
 									]
